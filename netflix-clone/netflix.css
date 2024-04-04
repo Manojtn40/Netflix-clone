@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-size: cover;
+    align-items: center;
+    background-color: black;
+    background-repeat: no-repeat; 
+    background-image: url(manoj-ntflix.jpg);
+    height: 100px;
+    width: 100%;
+   
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;   
+}
+.netflix-logo{
+    height:50px;
+    width: 180px;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 300px;
+    padding-top: 15px;
+    
+}
+.logo img{
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.lang{
+    height: 30px;
+    width: 100px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px rgb(179, 179, 179);
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 780px;
+    cursor: pointer;
+}
+.bsighin{
+    height: 30px;
+    width: 85px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.tagline h1{
+    height: 100px;
+    width: 90%;
+    background-color: 1red;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left:70px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+
+    
+}
+.tagline p {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(242, 242, 242);
+    font-size: 25px;
+    font-family:  "Gill Sans", sans-serif;
+
+
+}
+.p2{
+    margin-top: 25px;
+    font-size: 10px;
+}
+.search-box{
+    display: flex;
+    
+}
+.search-box input{
+    height: 55px;
+    width: 480px;
+    border: solid 1px white;
+    border-radius: 6px;
+    margin-top:10px ;
+    margin-left: 400px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+textarea:focus, input:focus{
+    color: white;
+}
+input, select, textarea{
+    color: white;
+}
+
+
+
+.search-box p{
+   height: 55px;
+   width: 200px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px ;
+    border-radius: 6px;
+    margin-left: 20px;
+    font-family:  "Gill Sans", sans-serif;
+    cursor: pointer;
+    font-weight: 550;
+    
+}
+
+ /* page 2 */
+
+ .page-2{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family:   "Gill Sans", sans-serif;
+ }
+.sentence-1 {
+    height: 250px;
+    width: 600px;    
+    color: white;
+}
+.sentence-1 h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.sentence-1 p{
+    font-size: 25px;
+}
+.vedio{
+    height: 250px;
+    width: 420px;
+    position: relative;
+}
+.video1{
+    position: relative;
+}
+.vedio1 img{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    z-index: 10;
+}
+
+.vedio1 video{
+   top: 51; 
+   left: 0;
+   margin-left: 950px;
+   margin-top: 15px;
+   height: 350px;
+   width: 400px;
+   position: absolute;
+}
+.waste{
+    height: 4px;
+    width: 100%;
+    background-color: rgb(63, 62, 62);
+}
+/* page-3 */
+.page-3{
+
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sentence-2{
+    height: 250px;
+    width: 600px;    
+    color: white;
+    font-family:   "Gill Sans", sans-serif;
+}
+.sentence-2 h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+.sentence-2 p{
+    font-family:  "Gill Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.vedio2{
+     height: 300px;
+     width: 600px;
+     background-color: black;
+     display: flex;
+     align-items: center;
+     justify-self: center;
+}
+.vedio2 img{
+    height: 470px;
+    width: 690px;
+}
+.boxshot{
+    height: 110px;
+    width: 340px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+    border: solid 1px white;
+    align-items: center;
+    display: flex;
+   
+    margin-right: 680px;
+    margin-top: 300px;
+}
+
+.boxshot img{
+    height:100px ;
+    width: 80px;
+    margin-left: 10px;
+}
+.boxshot p{
+    font-weight:550 ;
+    color: aliceblue;
+    font-family:  "Gill Sans", sans-serif;
+    margin-left: 10px;
+    
+    
+   
+    
+}
+.p1{
+    font-family:  "Gill Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(64, 64, 151);
+
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+} 
+/* page4 */
+.page-4{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.sentence-3 h2{
+    color: white;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page-4 p{
+    color: white;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.vedio3{
+    height: 400px;
+    width: 500px;
+}
+.vedio3  img{
+    height:400px ;
+    width: 500px;
+}
+/* page5 */
+.page-5 img{
+    height: 400px;
+    width: 500px;
+}
+.page-5{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sentence-4 h2{
+    color: white;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sentence-4 p{
+    color: white;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* page6 */
+.page-6{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.page-6 h2{
+    
+    color: white;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.boundry{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.boundry p{
+    height: 100px;
+    width: 1150px;
+    background-color:rgb(63, 62, 62);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-family:"Gill Sans", sans-serif ;
+    border-radius: 4px;
+    font-size: 30px;
+}
+span{
+    padding-left: 800px;
+    font-size: 70px;
+    
+}
+.s{
+    padding-left: 620px;
+}
+.s1{
+    padding-left: 740px;
+}
+.s2{
+    padding-left: 660px;
+}
+.s3{
+    padding-left: 710px;
+}
+.last-header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Gill Sans", sans-serif ;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.search-box1{
+    display: flex;
+    padding-bottom: 60px;
+    background-color: black;
+    
+}
+.search-box1 input{
+    height: 55px;
+    width: 480px;
+    border: solid 1px white;
+    border-radius: 6px;
+    margin-top:10px ;
+    margin-left: 400px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+.search-box1 p{
+    height: 55px;
+    width: 200px;
+     font-size: 25px;
+     background-color: red;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top:10px ;
+     border-radius: 6px;
+     margin-left: 20px;
+     font-family:  "Gill Sans", sans-serif;
+     cursor: pointer;
+     font-weight: 550;
+     
+ }
+footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+footer li ul a{   
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    font-family: "Gill Sans", sans-serif ;
+    padding: 10px;
+    
+}
+
